@@ -1,5 +1,6 @@
 package com.chondosha.geoquiz
 
+import android.os.Parcelable
 import androidx.annotation.StringRes
 
 // data class to represent a question and answer for quiz

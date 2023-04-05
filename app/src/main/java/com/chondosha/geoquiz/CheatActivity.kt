@@ -32,7 +32,6 @@ class CheatActivity : AppCompatActivity() {
                 else -> R.string.false_button
             }
             binding.answerTextView.setText(answerText)
-            quizViewModel.cheatAnswer = answerText
             quizViewModel.isCheater = true
             setAnswerShownResult(true)
         }
